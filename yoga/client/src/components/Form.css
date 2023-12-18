@@ -1,0 +1,61 @@
+/* Form.css */
+
+.center-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ECF4D6; 
+}
+
+.form-container {
+  max-width: 600px;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.form-heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form__label {
+  margin-bottom: 8px;
+}
+
+.form__input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  background-color: #ffff; 
+}
+
+.batches {
+  margin-bottom: 16px;
+}
+
+.batches select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  background-color: #ffff; 
+}
+
+.btn {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 20px;
+}
